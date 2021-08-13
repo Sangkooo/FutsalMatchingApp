@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">FutsalMatching</string>
+    <string name="home">홈</string>
+    <string name="profile">내 정보</string>
+    <string name="auto_matching">자동매칭</string>
+    <string name="manual_matching">매치찾기</string>
+    <string name="team_status">팀 등록/수정</string>
+    <string name="mercenary_recruitment">용병모집</string>
+    <string name="login_content">자동매칭으로 편하게!</string>
+    <string name="newly_stadium">신설구장</string>
+    <string name="event">Event</string>
+    <string name="initialize">기본순</string>
+    <string name="stadium_possession">구장보유</string>
+    <string name="low_skill">실력 낮은 순</string>
+    <string name="low_stadium_fee">구장비 낮은 순</string>
+    <string name="low_person">인원 적은 순</string>
+    <string name="find_match_mercenary">매치/용병 찾기</string>
 </resources>
