@@ -2,14 +2,11 @@ package com.toyproject.futsalmatching.ui
 
 import android.view.MenuItem
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.lifecycleScope
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.toyproject.futsalmatching.R
 import com.toyproject.futsalmatching.databinding.ActivityMainBinding
 import com.toyproject.futsalmatching.ui.base.BaseActivity
 import com.toyproject.futsalmatching.ui.home.HomeFragment
-import kotlinx.coroutines.launch
-import org.koin.android.ext.android.inject
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>(),

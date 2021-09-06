@@ -35,24 +35,16 @@
             android:layout_marginEnd="15dp"
             android:padding="5dp">
 
-            <ImageView
-                android:id="@+id/downArrowImageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_down"
-                app:layout_constraintStart_toEndOf="@id/teamNameTextView"
-                app:layout_constraintTop_toTopOf="@+id/teamNameContainer" />
-
             <TextView
                 android:id="@+id/teamNameTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="end"
-                android:text="@string/home"
                 android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toStartOf="downArrowImageView"
+                app:drawableEndCompat="@drawable/ic_down"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="@id/teamNameContainer"
                 tools:text="맨유" />
 
@@ -70,7 +62,7 @@
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="wrap_content">
 
             <TextView
                 android:id="@+id/homeTextView"
@@ -175,16 +167,26 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@id/autoMatchingButton" />
 
-            <ImageView
-                android:id="@+id/newlyStadiumImageView"
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/newlyStadiumViewPager"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginEnd="15dp"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/newlyStadiumTextView"
-                tools:src="@drawable/img_example_stadium" />
+                app:layout_constraintTop_toBottomOf="@+id/newlyStadiumTextView"/>
+
+<!--            <ImageView-->
+<!--                android:id="@+id/newlyStadiumImageView"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginStart="15dp"-->
+<!--                android:layout_marginTop="20dp"-->
+<!--                android:layout_marginEnd="15dp"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/newlyStadiumTextView"-->
+<!--                tools:src="@drawable/img_example_stadium" />-->
 
             <View
                 android:id="@+id/delimiterLineView"
@@ -196,7 +198,7 @@
                 android:background="#E8E8E8"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toBottomOf="@id/newlyStadiumImageView" />
+                app:layout_constraintTop_toBottomOf="@id/newlyStadiumViewPager" />
 
             <TextView
                 android:id="@+id/eventTextView"

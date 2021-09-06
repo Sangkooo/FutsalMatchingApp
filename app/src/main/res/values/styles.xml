@@ -23,4 +23,12 @@
         <item name="iconStartPadding">6dp</item>
         <item name="chipEndPadding">2dp</item>
     </style>
+
+    <style name="numberPickerCustomSize">
+        <item name="android:textSize">20sp</item>
+        <item name="android:editTextColor">#3E3E3E</item>
+        <item name="android:textStyle">bold</item>
+
+        <item name="android:textColor">#8E8E8E</item>
+    </style>
 </resources>

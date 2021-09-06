@@ -4,14 +4,14 @@ import android.content.Intent
 import com.toyproject.futsalmatching.databinding.FragmentHomeBinding
 import com.toyproject.futsalmatching.ui.base.BaseFragment
 import com.toyproject.futsalmatching.ui.manualmatch.MatchListActivity
-import com.toyproject.futsalmatching.ui.team.TeamActivity
+import com.toyproject.futsalmatching.ui.team.TeamListActivity
 import org.koin.android.viewmodel.ext.android.viewModel
 
 class HomeFragment: BaseFragment<HomeViewModel, FragmentHomeBinding>() {
 
     companion object {
 
-        const val TAG = "MainFragment"
+        const val TAG = "HomeFragment"
 
         fun newInstance() = HomeFragment()
     }
@@ -22,7 +22,7 @@ class HomeFragment: BaseFragment<HomeViewModel, FragmentHomeBinding>() {
     override fun initViews() = with(binding) {
         teamStatusButton.setOnClickListener {
             startActivity(
-                Intent(context, TeamActivity::class.java)
+                Intent(context, TeamListActivity::class.java)
             )
         }
         manualMatchingButton.setOnClickListener {

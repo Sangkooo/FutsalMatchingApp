@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@drawable/bg_top_round_corner_20_f5f5f5">
+
+            <TextView
+                android:id="@+id/titleTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#2B2B2B"
+                android:textSize="15sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp" />
+
+            <TextView
+                android:id="@+id/confirmTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="#2B2B2B"
+                android:textSize="15sp"
+                android:text="완료"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:gravity="center_vertical" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff">
+
+            <NumberPicker
+                android:id="@+id/select"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:theme="@style/numberPickerCustomSize"
+                android:minHeight="40dp"
+                android:layout_marginLeft="40dp"
+                android:layout_marginRight="40dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

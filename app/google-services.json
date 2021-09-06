@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "58780434235",
+    "project_id": "futsalmatching-a5a70",
+    "storage_bucket": "futsalmatching-a5a70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:58780434235:android:89da3ab805327fa16f811e",
+        "android_client_info": {
+          "package_name": "com.toyproject.futsalmatching"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "58780434235-on66c9f77k31k63ffp1o0t68ecc5qqp3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.toyproject.futsalmatching",
+            "certificate_hash": "e533a76391cbdf8328687792bf80075fd09d0872"
+          }
+        },
+        {
+          "client_id": "58780434235-ntggabon0j315394fsh3c57lpcba9vq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-MqwTr-Fq_5KgfDB-Uj-B3NXO8OwMO5w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "58780434235-ntggabon0j315394fsh3c57lpcba9vq6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

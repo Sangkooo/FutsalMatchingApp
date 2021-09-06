@@ -15,4 +15,8 @@
     <string name="low_stadium_fee">구장비 낮은 순</string>
     <string name="low_person">인원 적은 순</string>
     <string name="find_match_mercenary">매치/용병 찾기</string>
+    <string name="team_register">팀 등록</string>
+    <string name="team_info">팀 정보</string>
+    <string name="hint_team_name">팀 이름을 입력해 주세요.</string>
+    <string name="register">등록하기</string>
 </resources>
